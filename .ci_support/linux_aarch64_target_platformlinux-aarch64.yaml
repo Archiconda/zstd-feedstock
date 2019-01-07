@@ -1,0 +1,20 @@
+BUILD: aarch64-conda_cos7-linux-gnu
+c_compiler:
+- gcc
+channel_sources:
+- archiarm,
+channel_targets:
+- archiarm main
+cxx_compiler:
+- gxx
+pin_run_as_build:
+  xz:
+    max_pin: x.x
+  zlib:
+    max_pin: x.x
+target_platform:
+- linux-aarch64
+xz:
+- '5.2'
+zlib:
+- '1.2'

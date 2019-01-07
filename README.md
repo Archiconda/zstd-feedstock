@@ -1,6 +1,8 @@
 About zstd
 ==========
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: http://www.zstd.net
 
 Package license: BSD 3-Clause
@@ -23,6 +25,7 @@ Current build status
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/zstd-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/zstd-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/zstd-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/zstd-feedstock)
 [![Windows](https://img.shields.io/appveyor/ci/conda-forge/zstd-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/zstd-feedstock/branch/master)
+[![linux-aarch64](https://img.shields.io/shippable/5c32d1a987b5930700c339fd/aarch64.svg?label=linux-aarch64)](https://app.shippable.com/github/Archiconda/zstd-feedstock)
 
 Current release info
 ====================
@@ -110,3 +113,11 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@msarahan](https://github.com/msarahan/)
+* [@rmax](https://github.com/rmax/)
+* [@xhochy](https://github.com/xhochy/)
+
