@@ -45,7 +45,8 @@ if [[ ${CMAKE_BUILD} == yes ]]; then
           -DCMAKE_PREFIX_PATH="${PREFIX}"    \
           "${_CMAKE_EXTRA_CONFIG[@]}"
 
-    make -j${CPU_COUNT}
+    # make -j${CPU_COUNT}
+    make VERBOSE=1
     make install PREFIX=${PREFIX}
 
   popd
